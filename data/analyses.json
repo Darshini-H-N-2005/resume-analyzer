@@ -1,0 +1,135 @@
+{
+  "darshangningannavar@gmail.com": {
+    "email": "darshangningannavar@gmail.com",
+    "role": "general roles",
+    "analysis": {
+      "ats_score": 85,
+      "matched_skills": [
+        "C",
+        "Python",
+        "Java",
+        "MERN-stack",
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS",
+        "JavaScript",
+        "React.js",
+        "Git",
+        "SDLC",
+        "Agile",
+        "JavaFX",
+        "Node.js",
+        "MongoDB",
+        "Mongoose",
+        "Express.js",
+        "Spring (basics)",
+        "Web Development",
+        "Programming",
+        "Software Solutions",
+        "Frontend Development",
+        "Backend Development",
+        "Algorithms",
+        "Data Structures",
+        "GUI Development",
+        "Research",
+        "Technical Coordination",
+        "Leadership",
+        "Teamwork",
+        "Problem Solving"
+      ],
+      "missing_skills": [
+        "SQL",
+        "Cloud Computing (AWS/Azure/GCP basics)",
+        "Unit Testing (e.g., JUnit, Jest)",
+        "Operating Systems Fundamentals",
+        "Data Analysis (e.g., Pandas, NumPy - if targeting specific data-related roles)"
+      ],
+      "summary": "This resume presents a strong profile for general entry-level technical roles, showcasing a solid academic foundation, diverse programming skills (Java, Python, C, MERN stack), and practical experience through projects and an internship. The candidate demonstrates a passion for software development and a proactive approach to learning and skill acquisition.",
+      "strengths": [
+        "Strong academic record with a high CGPA in Computer Science Engineering.",
+        "Diverse programming skill set including C, Python, Java, and a full MERN stack.",
+        "Practical project experience demonstrating full-stack web development and GUI application development.",
+        "Relevant internship experience providing exposure to modern web technologies and development methodologies (Agile, SDLC).",
+        "Proactive learning demonstrated by multiple certifications and a research publication.",
+        "Engagement in extracurricular activities (volunteering) showing leadership and teamwork."
+      ],
+      "weaknesses": [
+        "Critical Issue: The internship dates (Feb 2025 \u2013 May 2025) are future-dated, which is a significant error and needs immediate correction.",
+        "Project descriptions lack quantifiable achievements or specific impact metrics (e.g., 'handled X users', 'improved efficiency by Y%').",
+        "The summary could be more impactful by briefly mentioning specific career aspirations or types of roles sought.",
+        "While skills are listed, demonstrating broader application beyond academic projects (e.g., open-source contributions, competitive programming) would add further depth."
+      ],
+      "recommendations": [
+        "Immediately correct the internship dates under 'Experience' to reflect actual past or present engagement (e.g., 'Feb 2024 \u2013 May 2024').",
+        "Quantify achievements in project descriptions where possible (e.g., 'Created a MERN-based e-commerce site with login, product, and order features, processing X transactions/month').",
+        "Tailor the 'Summary' or add a 'Career Objective' to explicitly state the type of entry-level technical roles being targeted (e.g., 'Seeking an entry-level Software Developer role utilizing MERN stack expertise').",
+        "If applicable, expand on specific contributions or responsibilities during the internship beyond just 'learned' (e.g., 'Contributed to X feature development,' 'Assisted in debugging Y modules').",
+        "Consider adding a section for competitive programming profiles (LeetCode, HackerRank) or open-source contributions if available, to further demonstrate problem-solving and coding skills."
+      ]
+    },
+    "timestamp": "2025-12-02T06:04:17.099315Z"
+  },
+  "ramyark818@gmail.com": {
+    "email": "ramyark818@gmail.com",
+    "role": "general roles",
+    "analysis": {
+      "ats_score": 65,
+      "matched_skills": [
+        "C",
+        "Python",
+        "Java",
+        "MERN-stack",
+        "HTML5",
+        "CSS3",
+        "SASS",
+        "JavaScript",
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "Mongoose",
+        "Express.js",
+        "Git",
+        "SDLC",
+        "Agile",
+        "JavaFX",
+        "Spring (basics)",
+        "Tailwind CSS",
+        "Algorithms",
+        "GUI Development",
+        "Full-stack Development",
+        "Web Development",
+        "Technical Coordination",
+        "Research",
+        "Problem-solving"
+      ],
+      "missing_skills": [
+        "SQL Databases (e.g., MySQL, PostgreSQL)",
+        "Testing Frameworks (e.g., JUnit, Jest)",
+        "Operating Systems (e.g., Linux/Unix)",
+        "Cloud Platforms (e.g., AWS, Azure)"
+      ],
+      "summary": "This resume showcases a highly promising Computer Science student with a robust academic background, diverse programming skills including MERN stack development, and practical project experience. However, the critical error of listing a future-dated internship significantly undermines its immediate impact, despite strong foundational knowledge and a clear passion for software solutions.",
+      "strengths": [
+        "Outstanding academic record demonstrated by a high CGPA and 'Pratibha Puraskar' awards.",
+        "Comprehensive technical skill set covering multiple programming languages (C, Java, Python) and modern web development technologies (MERN stack, React.js).",
+        "Practical application of skills shown through well-articulated projects (JavaFX GUI, MERN E-commerce site).",
+        "Commitment to continuous learning evidenced by certifications and a published review paper.",
+        "Volunteering experience as a Technical Co-ordinator highlights leadership, teamwork, and organizational abilities."
+      ],
+      "weaknesses": [
+        "The internship experience is listed with future dates (Feb 2025 \u2013 May 2025), which is a critical error and may lead to immediate disqualification by an ATS or recruiter.",
+        "Descriptions for projects and the internship lack quantifiable achievements or specific impacts/results.",
+        "Some certifications, like 'STP Computer Education', are vague and lack details about their content or duration.",
+        "While Git was learned during the internship, it is not explicitly listed in the 'Skills' section, which is a common oversight."
+      ],
+      "recommendations": [
+        "**Immediately correct the internship dates** to reflect actual past experience. If it's a confirmed future internship, clearly label it as 'Upcoming Internship'.",
+        "Quantify achievements in project and internship descriptions using numbers, percentages, or specific outcomes (e.g., 'Implemented X features, reducing process time by Y%').",
+        "Provide more detail for vague certifications like 'STP Computer Education' to demonstrate the acquired knowledge.",
+        "Explicitly add 'Git' or 'Version Control (Git)' to the 'Skills' section for better ATS matching.",
+        "Consider adding a concise 'About Me' or 'Professional Summary' that highlights career aspirations alongside skills."
+      ]
+    },
+    "timestamp": "2025-12-02T06:17:18.499697Z"
+  }
+}

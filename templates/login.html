@@ -1,0 +1,21 @@
+
+{% extends "layout.html" %}
+{% block content %}
+<div class="center-wrapper">
+  <div class="card login-card">
+    <h2 class="card-title">Welcome Back</h2>
+    <p class="card-subtitle">Sign in to analyze and improve your resume</p>
+
+    <form method="POST" class="form">
+      <label>Email</label>
+      <input type="email" name="email" placeholder="you@example.com" required>
+
+      <label>Password</label>
+      <input type="password" name="password" placeholder="********" required>
+
+      <button type="submit" class="btn primary-btn">Login</button>
+    </form>
+    <p class="hint-text">Use <strong>admin@admin.com</strong> to access the admin panel.</p>
+  </div>
+</div>
+{% endblock %}

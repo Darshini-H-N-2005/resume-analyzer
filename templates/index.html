@@ -1,0 +1,30 @@
+
+{% extends "layout.html" %}
+{% block content %}
+<section class="grid-2">
+  <div class="card">
+    <h2 class="card-title">Upload Resume</h2>
+    <p class="card-subtitle">Get instant ATS-style analysis and skill insights.</p>
+
+    <form action="{{ url_for('analyze') }}" method="POST" enctype="multipart/form-data" class="form">
+      <label>Resume File (PDF/TXT)</label>
+      <input type="file" name="resume" accept=".pdf,.txt" required>
+
+      <label>Target Job Role (optional)</label>
+      <input type="text" name="role" placeholder="e.g. Software Engineer, Data Analyst">
+
+      <button type="submit" class="btn primary-btn full-width">Analyze Resume</button>
+    </form>
+  </div>
+
+  <div class="card info-card">
+    <h2 class="card-title">How it Works</h2>
+    <ul class="info-list">
+      <li>Uploads are analyzed securely using Gemini AI.</li>
+      <li>You get an ATS score, matched & missing skills, and improvement tips.</li>
+      <li>Use the builder to generate a polished resume draft.</li>
+      <li>Admin can review all analyses from the dashboard.</li>
+    </ul>
+  </div>
+</section>
+{% endblock %}

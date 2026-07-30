@@ -1,0 +1,35 @@
+
+{% extends "layout.html" %}
+{% block content %}
+<section class="card">
+  <h2 class="card-title">Admin - All Analyses</h2>
+  <p class="card-subtitle">Visible only to admin@admin.com</p>
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>User Email</th>
+          <th>Role</th>
+          <th>ATS Score</th>
+          <th>Last Analyzed</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for email, item in analyses.items() %}
+        <tr>
+          <td>{{ email }}</td>
+          <td>{{ item.role }}</td>
+          <td>{{ item.analysis.ats_score }}</td>
+          <td>{{ item.timestamp }}</td>
+        </tr>
+        {% else %}
+        <tr>
+          <td colspan="4" style="text-align:center;">No analyses stored yet.</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}

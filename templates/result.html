@@ -1,0 +1,85 @@
+
+{% extends "layout.html" %}
+{% block content %}
+<section class="card">
+  <h2 class="card-title">Analysis Result</h2>
+  <p class="card-subtitle">Target Role: {{ role }}</p>
+
+  <div class="grid-3">
+    <div class="mini-card">
+      <h3>ATS Score</h3>
+      <canvas id="atsChart" height="200"></canvas>
+      <p class="score-text">{{ analysis.ats_score }} / 100</p>
+    </div>
+
+    <div class="mini-card">
+      <h3>Matched Skills</h3>
+      <ul class="pill-list">
+        {% for s in analysis.matched_skills %}
+        <li class="pill pill-success">{{ s }}</li>
+        {% else %}
+        <li class="pill">No skills detected</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="mini-card">
+      <h3>Missing Skills</h3>
+      <ul class="pill-list">
+        {% for s in analysis.missing_skills %}
+        <li class="pill pill-warning">{{ s }}</li>
+        {% else %}
+        <li class="pill">No missing skills listed</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="grid-2 mt-24">
+    <div>
+      <h3>Summary</h3>
+      <p class="paragraph">{{ analysis.summary }}</p>
+
+      <h3 class="mt-16">Strengths</h3>
+      <ul class="bullet-list">
+        {% for s in analysis.strengths %}
+        <li>{{ s }}</li>
+        {% else %}
+        <li>No strengths extracted.</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div>
+      <h3>Weaknesses</h3>
+      <ul class="bullet-list">
+        {% for w in analysis.weaknesses %}
+        <li>{{ w }}</li>
+        {% else %}
+        <li>No weaknesses extracted.</li>
+        {% endfor %}
+      </ul>
+
+      <h3 class="mt-16">Recommendations</h3>
+      <ul class="bullet-list">
+        {% for r in analysis.recommendations %}
+        <li>{{ r }}</li>
+        {% else %}
+        <li>No recommendations found.</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+<div class="mini-card mt-24">
+  <h3>Skill Match Overview</h3>
+  <canvas id="skillChart" height="120"></canvas>
+</div>
+
+<script>
+  const ATS_SCORE = {{ analysis.ats_score | default(0) }};
+  const MATCHED_SKILLS = {{ analysis.matched_skills | default([]) | tojson }};
+  const MISSING_SKILLS = {{ analysis.missing_skills | default([]) | tojson }};
+</script>
+<script src="{{ url_for('static', filename='js/chart-util.js') }}"></script>
+{% endblock %}
